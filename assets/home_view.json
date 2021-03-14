@@ -1,0 +1,76 @@
+{
+    "type": "Scaffold",
+    "appBar": {
+        "type": "AppBar",
+        "title": {
+            "type": "Text",
+            "data": "Container"
+        }
+    },
+    "body": {
+        "type": "Container",
+        "alignment": "center",
+        "child": {
+            "type": "Column",
+            "crossAxisAlignment": "start",
+            "mainAxisAlignment": "start",
+            "mainAxisSize": "max",
+            "textBaseline": "alphabetic",
+            "textDirection": "ltr",
+            "verticalDirection": "down",
+            "children": [{
+                    "type": "RaisedButton",
+                    "color": "##FF00FF",
+                    "padding": "8,8,8,8",
+                    "textColor": "#00FF00",
+                    "elevation": 8.0,
+                    "splashColor": "#00FF00",
+                    "click_event": "/container",
+                    "child": {
+                        "type": "Text",
+                        "data": "Container"
+                    }
+                },
+                {
+                    "type": "RaisedButton",
+                    "color": "##FF00FF",
+                    "padding": "8,8,8,8",
+                    "textColor": "#00FF00",
+                    "elevation": 8.0,
+                    "splashColor": "#00FF00",
+                    "click_event": "/text",
+                    "child": {
+                        "type": "Text",
+                        "data": "Text"
+                    }
+                },
+                {
+                    "type": "RaisedButton",
+                    "color": "##FF00FF",
+                    "padding": "8,8,8,8",
+                    "textColor": "#00FF00",
+                    "elevation": 8.0,
+                    "splashColor": "#00FF00",
+                    "click_event": "/grid_view",
+                    "child": {
+                        "type": "Text",
+                        "data": "GridView"
+                    }
+                },
+                {
+                    "type": "RaisedButton",
+                    "color": "##FF00FF",
+                    "padding": "8,8,8,8",
+                    "textColor": "#00FF00",
+                    "elevation": 8.0,
+                    "splashColor": "#00FF00",
+                    "click_event": "/button",
+                    "child": {
+                        "type": "Text",
+                        "data": "Button"
+                    }
+                }
+            ]
+        }
+    }
+}

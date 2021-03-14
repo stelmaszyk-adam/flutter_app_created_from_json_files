@@ -1,0 +1,27 @@
+{
+    "type": "Scaffold",
+    "appBar": {
+        "type": "AppBar",
+        "title": {
+            "type": "Text",
+            "data": "Text"
+        }
+    },
+    "body": {
+        "type": "Container",
+        "color": "#FF00FF",
+        "alignment": "center",
+        "child": {
+            "type": "Text",
+            "data": "Here is some text",
+            "maxLines": 3,
+            "overflow": "ellipsis",
+            "style": {
+                "color": "#00FFFF",
+                "fontSize": 20.0,
+                "fontWeight": "bold",
+                "decoration": "underline"
+            }
+        }
+    }
+}

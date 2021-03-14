@@ -1,0 +1,27 @@
+{
+    "type": "Scaffold",
+    "appBar": {
+        "type": "AppBar",
+        "title": {
+            "type": "Text",
+            "data": "Container"
+        }
+    },
+    "body": {
+        "type": "Container",
+        "alignment": "center",
+        "child": {
+            "type": "RaisedButton",
+            "color": "##FF00FF",
+            "padding": "8,8,8,8",
+            "textColor": "#00FF00",
+            "elevation": 8.0,
+            "splashColor": "#00FF00",
+            "click_event": "show_snack_bar",
+            "child": {
+                "type": "Text",
+                "data": "I am a button"
+            }
+        }
+    }
+}

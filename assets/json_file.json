@@ -1,0 +1,79 @@
+{
+    "routes": [
+        "/",
+        "/container",
+        "/text",
+        "/icon",
+        "/list_view"
+    ],
+    "screens": [{
+            "type": "Scaffold",
+            "appBar": {
+                "type": "AppBar",
+                "title": {
+                    "type": "Text",
+                    "data": "Container"
+                }
+            },
+            "body": {
+                "type": "Container",
+                "color": "#F54433"
+            }
+        },
+        {
+            "type": "Container",
+            "color": "#FF00FF",
+            "alignment": "center",
+            "child": {
+                "type": "Text",
+                "data": "Here is some text",
+                "maxLines": 3,
+                "overflow": "ellipsis",
+                "style": {
+                    "color": "#00FFFF",
+                    "fontSize": 20.0,
+                    "fontWeight": "bold",
+                    "decoration": "underline"
+                }
+            }
+        },
+        {
+            "type": "Container",
+            "color": "#F54433",
+            "alignment": "center",
+            "child": {
+                "type": "Icon",
+                "data": "beach_access",
+                "color": "#0000FF",
+                "size": 36.0
+            }
+        },
+        {
+            "type": "GridView",
+            "crossAxisCount": 2,
+            "padding": "10, 10, 10, 10",
+            "mainAxisSpacing": 4.0,
+            "crossAxisSpacing": 4.0,
+            "childAspectRatio": 1.6,
+            "children": [{
+                    "type": "Icon",
+                    "data": "beach_access",
+                    "color": "#0000FF",
+                    "size": 36.0
+                },
+                {
+                    "type": "Icon",
+                    "data": "beach_access",
+                    "color": "#0000FF",
+                    "size": 36.0
+                },
+                {
+                    "type": "Icon",
+                    "data": "beach_access",
+                    "color": "#0000FF",
+                    "size": 36.0
+                }
+            ]
+        }
+    ]
+}

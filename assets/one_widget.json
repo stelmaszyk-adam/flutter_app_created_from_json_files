@@ -1,0 +1,14 @@
+{
+    "type": "Scaffold",
+    "appBar": {
+        "type": "AppBar",
+        "title": {
+            "type": "Text",
+            "data": "Container"
+        }
+    },
+    "body": {
+        "type": "Container",
+        "color": "#F54433"
+    }
+}

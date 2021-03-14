@@ -1,0 +1,37 @@
+{
+    "type": "Scaffold",
+    "appBar": {
+        "type": "AppBar",
+        "title": {
+            "type": "Text",
+            "data": "GridView"
+        }
+    },
+    "body": {
+        "type": "GridView",
+        "crossAxisCount": 2,
+        "padding": "10, 10, 10, 10",
+        "mainAxisSpacing": 4.0,
+        "crossAxisSpacing": 4.0,
+        "childAspectRatio": 1.6,
+        "children": [{
+                "type": "Icon",
+                "data": "beach_access",
+                "color": "#0000FF",
+                "size": 36.0
+            },
+            {
+                "type": "Icon",
+                "data": "beach_access",
+                "color": "#0000FF",
+                "size": 36.0
+            },
+            {
+                "type": "Icon",
+                "data": "beach_access",
+                "color": "#0000FF",
+                "size": 36.0
+            }
+        ]
+    }
+}
