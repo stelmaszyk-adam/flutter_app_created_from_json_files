@@ -3,5 +3,5 @@
 Simple flutter application which create the views from json files.
 
 To run application:
-flutter pub get
+flutter pub get,
 flutter run
